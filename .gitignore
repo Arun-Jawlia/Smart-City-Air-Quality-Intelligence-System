@@ -1,17 +1,27 @@
+# Virtual Environment
 .venv/
 
+# Python
 __pycache__/
-
-.ipynb_checkpoints/
-
-.env
-
-logs/
-
 *.pyc
 
-*.pkl
+# Jupyter
+.ipynb_checkpoints/
 
+# Environment Variables
+.env
+
+# Logs
+logs/
+
+# Models
+models/*.pkl
+
+# Databases
 *.db
 
+# macOS
 .DS_Store
+
+# VS Code
+.vscode/
