@@ -19,6 +19,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # API Configuration
 # -----------------------
 
+WEATHER_BASE_URL = os.getenv("WEATHER_BASE_URL")
+
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 
 AQI_API_KEY = os.getenv("AQI_API_KEY")
